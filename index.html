@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테르툴리아누스 영혼론 용어 해설</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Noto+Serif+KR:wght@400;600&family=Noto+Serif:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="tertullian.jpg" alt="테르툴리아누스 초상화 (플레이스홀더)" class="author-portrait">
+            <h1>테르툴리아누스의 ≪영혼론: 영혼의 불멸성에 관하여≫ 용어 해설</h1>
+            <p class="intro">테르툴리아누스(Tertullianus)의 ≪영혼론 (De Anima)≫에 등장하는 주요 용어 해설입니다.</p>
+            <div class="source-info">
+                 <p>
+                     본 용어 해설의 주요 기반 문헌:<br>
+                     <em>DE ANIMA</em>. QVINTI SEPTIMII FLORENTIS TERTVLLIANI.<br>
+                     Corpvs Scriptorvm Ecclesiasticorvm Latinorvm Vol. XX. Pars I, pp. 289-396.<br>
+                     F. Tempsky (Pragae, Vindobonae) G. Freytag (Lipsiae) 1890.<br>
+                     <span class="translation-info">
+                        (케리그마 번역판(전자책) 구입처:
+                        <a href="https://play.google.com/store/books/details/%ED%85%8C%EB%A5%B4%ED%88%B4%EB%A6%AC%EC%95%84%EB%88%84%EC%8A%A4_%EC%98%81%ED%98%BC%EB%A1%A0?id=zS5cEQAAQBAJ&hl=ko" target="_blank" class="bookstore-link">Google Play</a> |
+                        <a href="https://www.yes24.com/Product/Goods/146336282" target="_blank" class="bookstore-link">yes24</a> |
+                        <a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=363871457" target="_blank" class="bookstore-link">알라딘</a> |
+                        <a href="https://ridibooks.com/books/3373000016?_s=search&_q=%EC%98%81%ED%98%BC%EB%A1%A0&_rdt_sid=SearchBookList" target="_blank" class="bookstore-link">리디</a> |
+                        <a href="https://ebook-product.kyobobook.co.kr/dig/epd/ebook//E000011414027" target="_blank" class="bookstore-link">교보</a>)
+                    </span>
+                 </p>
+            </div>
+            <div class="search-container">
+                <label for="searchInput" class="visually-hidden">용어 검색</label>
+                <input type="search" id="searchInput" placeholder="용어 검색 (예: 물질성, 플라톤)...">
+                <button id="clearSearchBtn" type="button" title="검색 초기화">×</button>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <nav class="alphabet-nav">
+                <ul>
+                    <li><a href="#sec-ㄱ" aria-label="ㄱ 섹션으로 이동">ㄱ</a></li>
+                    <li><a href="#sec-ㄴ" aria-label="ㄴ 섹션으로 이동">ㄴ</a></li>
+                    <li><a href="#sec-ㄷ" aria-label="ㄷ 섹션으로 이동">ㄷ</a></li>
+                    <li><a href="#sec-ㅁ" aria-label="ㅁ 섹션으로 이동">ㅁ</a></li>
+                    <li><a href="#sec-ㅂ" aria-label="ㅂ 섹션으로 이동">ㅂ</a></li>
+                    <li><a href="#sec-ㅅ" aria-label="ㅅ 섹션으로 이동">ㅅ</a></li>
+                    <li><a href="#sec-ㅇ" aria-label="ㅇ 섹션으로 이동">ㅇ</a></li>
+                    <li><a href="#sec-ㅈ" aria-label="ㅈ 섹션으로 이동">ㅈ</a></li>
+                    <li><a href="#sec-ㅊ" aria-label="ㅊ 섹션으로 이동">ㅊ</a></li>
+                    <li><a href="#sec-ㅍ" aria-label="ㅍ 섹션으로 이동">ㅍ</a></li>
+                    <li><a href="#sec-ㅎ" aria-label="ㅎ 섹션으로 이동">ㅎ</a></li>
+                </ul>
+            </nav>
+
+            <main class="glossary-content">
+                <section id="table-of-contents">
+                    <h2>≪영혼론≫ 주제별 목차</h2>
+                    <p style="font-size:0.9em; color:#6c757d; margin-bottom:15px;">(참조: 실제 책의 목차는 없음. 주제 분류는 해설자의 편의를 위함)</p>
+                    <ul>
+                        <li>I. 서론 및 영혼 탐구의 기초 (1-4절)</li>
+                        <li>II. 영혼의 본질: 실체, 속성, 통일성 (5-6, 9-15, 36-38, 41절)</li>
+                        <li>III. 영혼의 기원과 전개: 선재, 유전, 발달 (7-8, 19, 23-27절)</li>
+                        <li>IV. 영혼의 인식과 상태: 감각, 꿈, 잠 (17-18, 20, 21-22, 43-49절)</li>
+                        <li>V. 영혼의 운명: 죄, 죽음, 사후, 종말 (16, 19 전반, 28-35, 39-40, 42, 50-58절)</li>
+                    </ul>
+                </section>
+                <hr>
+
+                <!-- Section ㄱ -->
+                <section id="sec-ㄱ">
+                    <h2>ㄱ</h2>
+                    <dl>
+                        <div class="glossary-entry">
+                            <dt>감각 (Sensus)</dt>
+                            <dd>
+                                &lt;영혼론&gt;에서 영혼이 육체를 통해 외부 세계를 인식하는 기본적인 능력. 테르툴리아누스는 일부 철학자들이 감각의 신뢰성을 부정하는 것에 반박하며, 감각이 진리 인식의 중요한 통로임을 강조한다 (<span class="source-ref">17, 18절</span>). 특히 그리스도의 감각 경험을 통해 감각의 확실성을 논증하며, 지성(Intellectus)과의 상호 의존성을 강조한다.
+                                <p><em>테르툴리아누스의 입장:</em> 감각은 하나님의 창조물이며, 올바르게 사용될 때 진리 인식에 기여한다. 감각의 오류는 감각 자체의 문제가 아니라 외부 요인(예: 물속의 노)이나 주체의 상태(예: 광기 - 오레스테스, 아이아스 등의 사례)로 인해 발생할 수 있다고 본다 (<span class="source-ref">17절</span>). 그는 아카데미 학파의 감각 불신론을 비판하며, 마르키온의 가현설을 반박하기 위해 그리스도와 사도들의 확실한 감각 경험을 강조한다 (<span class="source-ref">17절</span>).</p>
+                            </dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>강령술/영혼 소환 (Necromantia/Evocatio animarum)</dt>
+                            <dd>
+                                죽은 자의 영혼을 불러내어 소통하려는 마술적 행위. 테르툴리아누스는 강령술을 통해 실제 죽은 자의 영혼을 불러낼 수 있다는 모든 주장을 강력히 부정한다. 그는 사울 왕이 엔돌의 무당(피톤의 영을 지닌 여인)을 통해 사무엘의 영을 불러냈다고 하는 사건(삼상 28장)은 실제 사무엘이 아니라 사무엘의 형상을 흉내 낸 악령의 속임수라고 해석한다 (<span class="source-ref">57절</span>). 또한 님포도로스 등이 언급한, 조상의 무덤 곁에서 잠을 자며 신탁(인쿠바티오)을 받는 풍습 역시 악령과의 교감이거나 속임수로 간주한다 (<span class="source-ref">57절</span>). 그는 부자와 나사로 비유(눅 16:19-31)를 근거로, 죽은 자의 영혼은 저승에서 이승으로 돌아올 수 없으며, 오직 하나님의 권능에 의한 부활만이 예외라고 강조한다 (<span class="source-ref">57절</span>).
+                            </dd>
+                        </div>
+                        <div class="glossary-entry">
+                            <dt>계시 (Revelatio)</dt>
+                            <dd>
+                                테르툴리아누스에게 있어 철학적 사유를 넘어선 진리 인식의 궁극적인 원천. 그는 영혼에 관한 참된 지식은 인간의 이성이나 철학이 아닌, 하나님의 계시(특히 성경과 성령의 역사를 통해 주어지는)를 통해서만 얻을 수 있다고 주장한다 (<span class="source-ref">1, 2, 15절</span>).
+                                <p><em>테르툴리아누스의 입장:</em> 철학은 진리의 단편만을 제공하지만, 계시는 영혼의 본질과 운명에 대한 완전하고 확실한 지식을 제공한다 (<span class="source-ref">2절</span>).</p>
+                            </dd>
+                        </div>
+                        <div class="glossary-entry">
+                            <dt>그리스도 (Christus)</dt>
+                            <dd>&lt;영혼론&gt;에서 단순한 역사적 인물을 넘어, 영혼의 구원과 진리의 기준이 되는 핵심 인물. 테르툴리아누스는 소크라테스와 같은 철학자들과 그리스도를 대비시키며, 그리스도의 가르침과 삶(특히 그의 감각 경험, 죽음, 부활)이 영혼에 대한 참된 이해를 제공한다고 본다 (<span class="source-ref">1, 13, 15, 17, 55절</span>).</dd>
+                        </div>
+                        <div class="glossary-entry">
+                            <dt>기예 (Techne)</dt>
+                            <dd>기술, 학문 등 숙련된 능력. 테르툴리아누스는 이를 영혼 자체의 본질과 구별되는, 영혼이 가진 후천적으로 발달 가능한 기능이나 능력으로 본다. 영혼은 이러한 기예들을 통해 자신을 표현하고 발전시킨다 (<span class="source-ref">10절</span>).</dd>
+                        </div>
+                    </dl>
+                </section>
+
+                <!-- Section ㄴ -->
+                <section id="sec-ㄴ">
+                    <h2>ㄴ</h2>
+                    <dl>
+                        <div class="glossary-entry">
+                            <dt>나사로 (Lazarus / 엘르아자르 Eleazarus)</dt>
+                            <dd>누가복음 16장의 부자와 나사로 비유에 등장하는 인물. '엘르아자르'는 '나사로'의 원래 이름이다. 테르툴리아누스는 이 비유를 문자 그대로 해석하여, 영혼이 육체와 분리된 후에도 의식과 감각(혀로 물을 구하는 고통, 손가락 등) 및 형태를 가지고 지하세계(저승)에서 실제적인 고통(부자)이나 위로(나사로)를 경험한다고 주장한다. 이는 그에게 있어 영혼의 물질성(육체성)과 사후에도 지속되는 개별적 존재를 뒷받침하는 핵심적인 성경적 증거로 사용된다 (<span class="source-ref">7, 9, 34, 57, 58절</span>).</dd>
+                        </div>
+                        <div class="glossary-entry">
+                            <dt>낙원 (Paradisus)</dt>
+                            <dd>&lt;영혼론&gt;에서 순교자들과 같은 특별한 신자들이 죽음 이후 부활 전까지 머무는 축복받은 장소. 일반 신자들이 저승(하데스)의 아브라함의 품에서 위로를 받는 것과 구별된다. 테르툴리아누스는 카르타고의 순교 성녀 페르페투아의 환시를 근거로, 오직 순교자들만이 즉시 낙원에 들어가는 특권을 누린다고 본다. 창세기 3:24의 에덴 동산을 지키는 '불칼'은 이러한 낙원 입구의 상징으로, 순교의 피를 흘린 자들만이 이 문을 통과할 수 있다고 해석한다 (<span class="source-ref">55절</span>).</dd>
+                        </div>
+                    </dl>
+                </section>
+
+                <!-- Section ㄷ -->
+                <section id="sec-ㄷ">
+                    <h2>ㄷ</h2>
+                    <dl>
+                        <div class="glossary-entry">
+                            <dt>데모크리토스 (Democritus)</dt>
+                            <dd>
+                                고대 그리스의 원자론 철학자. 테르툴리아누스는 그가 영혼과 마음(정신)의 차이를 없애 통합을 설명할 수 있다고 언급하며 (<span class="source-ref">12, 41절</span>), 죽음 이후에도 영혼 일부가 시신에 남는다는 그의 영혼 잔류설(예: 손톱이나 머리카락이 자라는 현상)을 비판한다 (<span class="source-ref">51절</span>).
+                                <p><em>테르툴리아누스의 비판점:</em> 영혼 잔류설은 영혼의 완전한 분리를 부정하며, 죽음에 대한 기독교적 이해와 맞지 않는다. 시신의 변화는 자연적 현상일 뿐 영혼의 잔존 증거가 아니다.</p>
+                            </dd>
+                        </div>
+                    </dl>
+                </section>
+
+                <!-- Section ㅁ -->
+                <section id="sec-ㅁ">
+                    <h2>ㅁ</h2>
+                    <dl>
+                         <div class="glossary-entry">
+                            <dt>마음 (Animus/Mens/νοῦς)</dt>
+                            <dd>
+                                &lt;영혼론&gt;에서 영혼(Anima)의 한 기능 또는 능력으로 간주된다. 테르툴리아누스는 플라톤주의자들이나 일부 철학자들이 마음(정신)을 영혼과 분리된 실체로 보거나 더 우월한 것으로 여기는 견해를 비판한다. 그는 마음이 영혼에 내재하며, 영혼을 통해 활동하고 인식하는 고유한 능력이라고 주장하여 영혼의 단일성과 주도성을 강조한다 (<span class="source-ref">12, 13, 18절</span>). 소크라테스의 다이모니온도 영혼 내적 기능 혹은 외부 영의 영향으로 설명될 수 있다고 본다 (<span class="source-ref">12절</span>). 그는 플라톤이 에피카르모스의 경구("정신이 보고 정신이 듣는다")를 차용하여 감각을 배제하고 순수 정신을 강조했다고 비판하며(<span class="source-ref">18절</span>), 이러한 분리가 영지주의 유출론의 배경이 되었다고 본다.
+                                <p><em>테르툴리아누스의 입장:</em> 마음은 영혼의 도구이지, 영혼보다 우월하거나 독립적인 실체가 아니다 (<span class="source-ref">13절</span>).</p>
+                             </dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>망각 (Oblivio/Amissio memoriae)</dt>
+                            <dd>플라톤의 상기설을 비판하는 맥락에서 중요하게 다뤄지는 개념. 테르툴리아누스는 영혼이 신적인 존재라면 망각할 수 없어야 하며, 만약 망각했다면 다시 기억해낼 수도 없어야 한다고 주장한다. 이를 통해 영혼이 육체 이전의 세계에서 이데아를 인식했다는 플라톤의 주장을 반박한다 (<span class="source-ref">8, 24절</span>).</dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>메난드로스 (Menander)</dt>
+                            <dd>사마리아 출신의 이단적 마술사이자 시몬 마구스의 제자. 그는 자신이 초월적 권능으로부터 보냄 받았으며 자신의 특별한 세례를 받은 자들은 죽음을 경험하지 않고 즉각적인 불멸과 부패하지 않음을 얻는다고 가르쳤다. 테르툴리아누스는 이러한 주장이 죽음의 보편적 필연성을 부정하는 광기 어린 이단 사상이라고 강력히 비판한다. 그는 다양한 신화적 샘물(예: 아르카디아 노나크리스 물)이나 여신 테티스의 시도조차 죽음을 막지 못했음을 상기시키며, 메난드로스의 '불멸의 세례'가 헛된 것임을 논증한다 (<span class="source-ref">23, 50절</span>).</dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>메르쿠리우스 (Mercurius)</dt>
+                            <dd>
+                                이집트 신 토트(Thoth)와 동일시되는 헤르메스 트리스메기스투스(Hermes Trismegistus)를 지칭. 고대 지혜와 신비주의 문헌(헤르메티카)의 저자로 간주된다. 테르툴리아누스는 플라톤을 비롯한 여러 철학자들이 이러한 이교적 권위에 의존하여 영혼론을 펼쳤다고 비판하며, 그 가르침이 영혼 윤회설의 한 근원으로도 여겨짐을 언급한다 (<span class="source-ref">2, 28, 33, 53절</span>).
+                                <p><em>테르툴리아누스의 비판점:</em> 메르쿠리우스의 가르침은 이교적이며, 참된 영혼론의 근거가 될 수 없다.</p>
+                             </dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>물질성 (Corporeitas/Substantia corporalis)</dt>
+                            <dd>
+                                &lt;영혼론&gt;에서 테르툴리아누스가 주장하는 영혼의 핵심적 본질 중 하나. 그는 영혼이 비물질적이라는 플라톤주의자들의 견해에 반대하여, 영혼이 비록 미세하고 눈에 보이지 않더라도 고유한 형태와 실체를 지닌 ‘물질적’ 존재라고 주장한다. 이는 영혼이 고통을 느끼고(<span class="source-ref">7절</span>), 형상을 가지며(<span class="source-ref">9절</span>), 음식으로 영양을 공급받고(<span class="source-ref">6절</span> - 소라누스 인용), 공간을 차지한다는 논증을 통해 뒷받침된다. 영혼의 본질을 불(히파르쿠스), 물(히폰), 혈액(엠페도클레스) 등으로 본 고대 철학자들의 견해도 이러한 물질적 유비로 참조된다 (<span class="source-ref">5절</span>). 스토아 학파 클레안테스의 ‘영혼 특징 유전’ 논증도 물질성 근거로 활용된다 (<span class="source-ref">5절</span>). 이는 영혼의 개별성과 사후 존재를 설명하는 데 중요한 역할을 한다 (<span class="source-ref">5-9, 22, 27절</span> 등).
+                                <p><em>테르툴리아누스의 입장:</em> 영혼의 물질성은 영혼이 실제적인 존재이며, 육체와의 상호작용, 사후 상태에서의 경험 등을 설명 가능하게 한다. 플라톤의 제자인 에우불루스나 크세노크라테스 등은 비물질성을 주장했지만 이는 반박 대상이다 (<span class="source-ref">5절</span>).</p>
+                            </dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>무키우스 스카이볼라 (Mucius Scaevola)</dt>
+                            <dd>로마의 전설적인 영웅. 포로로 잡혔을 때 적장 앞에서 자신의 오른손을 불에 태우며 고통을 인내한 일화로 유명하다. 테르툴리아누스는 이 사례를 들어, 영혼이 육체의 고통과 어느 정도 분리되어 독자적인 경험(인내 등)을 할 수 있음을 시사하며, 이는 죽음 이후 육체가 없는 영혼도 저승에서 잠정적인 심판에 따른 고통이나 위안을 경험할 수 있다는 자신의 주장을 뒷받침하는 논거로 사용된다 (<span class="source-ref">58절</span>).</dd>
+                        </div>
+                    </dl>
+                </section>
+
+                <!-- Section ㅂ -->
+                <section id="sec-ㅂ">
+                    <h2>ㅂ</h2>
+                    <dl>
+                        <div class="glossary-entry">
+                            <dt>발렌티누스 (Valentinus)</dt>
+                            <dd>
+                                가장 영향력 있는 영지주의 교사 중 한 명. 그의 복잡한 유출론(아이온들의 세계, 부토스/시게, 플레로마 등)은 영혼의 기원과 본질에 대한 기독교적 이해와 상충된다. 테르툴리아누스는 그의 사상이 플라톤 철학(특히 이데아론)에 뿌리를 두고 있으며, ‘정신’(Nous)을 영혼과 분리된 상위 실체로 보는 특정 철학적 경향이 이단적 신화로 발전한 예라고 비판한다 (<span class="source-ref">12, 18, 21, 23절</span>).
+                                <p><em>테르툴리아누스의 비판점:</em> 발렌티누스의 유출론은 하나님의 창조 주권을 약화시키고, 복잡한 신화 체계로 진리를 왜곡하며, 육체적 감각을 폄하한다.</p>
+                            </dd>
+                        </div>
+                        <div class="glossary-entry">
+                            <dt>부활 (Resurrectio)</dt>
+                            <dd>&lt;영혼론&gt;의 직접적인 주제는 아니지만, 영혼의 불멸성과 사후 상태 논의의 중요한 배경이 된다. 테르툴리아누스는 영혼이 육체와 함께 최후의 심판 때 부활하여 영원한 생명 또는 형벌을 받는다고 믿으며, 이는 영혼의 윤회나 소멸을 주장하는 이교 철학 및 이단 사상과 대립된다 (<span class="source-ref">10, 33, 50, 55, 56, 58절</span>).</dd>
+                        </div>
+                    </dl>
+                </section>
+
+                <!-- Section ㅅ -->
+                <section id="sec-ㅅ">
+                    <h2>ㅅ</h2>
+                    <dl>
+                        <div class="glossary-entry">
+                            <dt>사투르니누스 (Saturninus)</dt>
+                            <dd>
+                                시몬 마구스의 제자로 알려진 영지주의 교사. 그는 인간이 불완전한 천사들에 의해 어설프게 창조되었으나, 이후 최고의 신으로부터 온 자비의 '생명 불꽃'(영혼)이 주입되어 비로소 일어설 수 있게 되었으며, 영혼은 죽으면 그 모태(아마도 불꽃의 근원)로 돌아간다고 가르쳤다. 테르툴리아누스는 이러한 영혼 기원론을 비판한다 (<span class="source-ref">23절</span>).
+                                <p><em>테르툴리아누스의 비판점:</em> 사투르니누스의 이론은 하나님의 직접적인 창조를 부정하고, 인간 존재의 존엄성을 훼손한다.</p>
+                            </dd>
+                        </div>
+                        <div class="glossary-entry">
+                            <dt>상기설 (Anamnesis / μαθήσεις ἀναμνήσεις)</dt>
+                            <dd>
+                                플라톤 철학의 핵심 이론 중 하나로, 영혼이 육체를 입기 전에 이데아의 세계에서 진리를 인식했으며, 이 세상에서의 배움은 그 잊었던 기억을 다시 떠올리는 과정이라는 주장이다. 테르툴리아누스는 이 이론이 영혼의 선재와 신성을 가정하며, 기독교의 창조론 및 영혼론과 맞지 않는다고 보고 강하게 비판한다. 특히 영혼의 망각 가능성과 기억 회복의 논리를 문제 삼는다 (<span class="source-ref">8, 23, 24절</span>).
+                                <p><em>테르툴리아누스의 비판점:</em> 상기설은 영혼의 창조를 부정하고, 이단 사상의 온상이 된다. <span class="related-terms">(관련 항목: <a href="#sec-ㅍ" class="internal-link" data-target-dt="플라톤">플라톤</a> 참조)</span></p>
+                            </dd>
+                        </div>
+                        <div class="glossary-entry">
+                            <dt>성령 (Spiritus Sanctus)</dt>
+                            <dd>삼위일체 하나님의 한 위격. &lt;영혼론&gt;에서는 주로 예언, 계시, 신자들의 성화와 관련하여 언급된다. 테르툴리아누스는 철학적 지혜와 대비되는 참된 지혜의 원천으로 성령의 조명을 강조하며(<span class="source-ref">1절</span>), 물과 성령으로 거듭남을 통해 영혼이 정화되고 하나님 나라에 들어갈 수 있음을 언급한다 (<span class="source-ref">11, 39, 41, 47절</span>). 사울의 예언 사례는 외부 영(성령/악령)이 영혼에 작용하는 예로, 영혼 자체의 본질적 단순성과 구별된다.</dd>
+                        </div>
+                        <div class="glossary-entry">
+                            <dt>세네카 (Seneca)</dt>
+                            <dd>로마의 스토아 철학자. 테르툴리아누스는 그가 언급한 '모든 기예와 시대의 씨앗들이 우리 안에 심겨 있으며, 은밀한 스승인 신이 재능들을 이끌어낸다'는 말을, 영혼이 태어날 때부터 모든 본성적 속성을 씨앗(잠재력)의 형태로 가지고 있으며 이것이 점차 발현된다는 자신의 주장을 뒷받침하기 위해 인용한다 (<span class="source-ref">20절</span>). 또한, "죽음 이후에는 모든 것이, 심지어 죽음 자체도 끝난다"는 그의 견해를 죽음의 실재성과 사후 존재를 부정하는 것으로 비판한다 (<span class="source-ref">42절</span>).</dd>
+                        </div>
+                        <div class="glossary-entry">
+                            <dt>소라누스 (Soranus)</dt>
+                            <dd>로마 시대의 저명한 메토두스(Methodic) 학파 의사. 테르툴리아누스는 그의 의학적 권위를 빌려, 영혼도 물질적인 음식으로 영양을 공급받으며 음식이 부족할 경우 영혼이 쇠약해진다는 소라누스의 주장을 인용한다. 이를 통해 영혼이 물질적 본질을 가진다는 자신의 논증을 강화하고, 영혼이 지혜와 같은 비물질적인 것으로만 양육된다는 플라톤주의의 비물질적 영혼론을 반박한다 (<span class="source-ref">6, 8, 14, 15, 44절</span>). 그는 또한 영혼의 주도 원리(헤게모니콘)를 인정한 인물로 분류된다.</dd>
+                        </div>
+                        <div class="glossary-entry">
+                            <dt>소크라테스 (Socrates)</dt>
+                            <dd>
+                                고대 그리스 철학의 아버지. &lt;영혼론&gt; 서두에서 그의 죽음과 영혼 불멸 논의가 언급되지만, 테르툴리아누스는 그의 지혜가 악령의 영향 아래 있었으며(<span class="source-ref">1절</span>), 진정한 영적 통찰에는 미치지 못했다고 비판한다. 그가 아니투스와 멜레투스에게 고소당해 사형 선고 후 보인 평정심은 의도된 것이며, 아스클레피오스에게 닭을 바치라는 유언은 위선으로 평가된다(<span class="source-ref">1절</span>). 그의 다이모니온은 영혼 내적 기능 혹은 외부 영의 영향으로 본다(<span class="source-ref">12절</span>). 플라톤의 &lt;파이돈&gt;은 케베스와 파이돈을 통해 그의 마지막을 전한다(<span class="source-ref">1절</span>).
+                                <p><em>테르툴리아누스의 비판점:</em> 소크라테스의 지혜는 계시에 기반하지 않아 불완전하다.</p>
+                            </dd>
+                        </div>
+                        <div class="glossary-entry">
+                            <dt>스토아 학파 (Stoici)</dt>
+                            <dd>고대 그리스 철학의 주요 학파. 영혼을 미세한 물질(프네우마)로 보고, 우주적 이성(로고스)과의 조화를 강조했다. 테르툴리아누스는 영혼의 물질성을 주장하는 이들의 견해를 일부 긍정적으로 인용하지만(<span class="source-ref">5절</span>), 범신론적 경향이나 영혼 소멸(에크퓌로시스 <span class="source-ref">54절</span>), 영혼 부분설(제논 3부분설, 파나이티오스 6부분설, 크리시포스 8부분설, 포시도니우스 17부분설 <span class="source-ref">14절</span>) 등은 비판한다. 헤게모니콘을 심장에 두었다는 점은 긍정적으로 수용한다(<span class="source-ref">15절</span>). 엔디미온 신화에 빗대어 영혼이 달 주위에서 잠든다는 견해도 비판한다(<span class="source-ref">55절</span>).</dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>시몬 마구스 (Simon Magus)</dt>
+                            <dd>
+                                사도행전 8장의 마술사, 초대교회 주요 이단자. 그의 추종자는 시몬파(Simoniani)로 불린다(<span class="source-ref">23절</span>). 메난드로스가 그의 제자였다(<span class="source-ref">23절</span>). 그는 영혼 윤회와, 티로 출신 창녀였던 헬레나를 자신의 첫 번째 발현(ennoia)이자 과거 트로이의 헬레나(프리아모스 왕 시대 <span class="source-ref">34절</span>)가 환생한 존재라고 주장했다. 테르툴리아누스는 이것이 그리스 시인 스테시코로스의 헬레나 관련 전설을 악용한 허구이며(<span class="source-ref">34절</span>), 헬레나를 되찾으려 한 메넬라오스 왕의 노력과 시몬의 행태를 비교하며 비판한다(<span class="source-ref">34절</span>; <span class="source-ref">23, 57절</span>).
+                                <p><em>테르툴리아누스의 비판점:</em> 시몬 마구스의 가르침은 성경적 진리를 왜곡하고, 마술과 혼합된 이단 사상이다.</p>
+                            </dd>
+                        </div>
+                    </dl>
+                </section>
+
+                <!-- Section ㅇ -->
+                <section id="sec-ㅇ">
+                    <h2>ㅇ</h2>
+                     <dl>
+                        <div class="glossary-entry">
+                            <dt>아담 (Adam)</dt>
+                            <dd>&lt;영혼론&gt;에서 아담의 창조는 영혼과 육체의 동시적 기원(<span class="source-ref">27절</span>), 영혼의 성별 결정(<span class="source-ref">36절</span>), 죄의 기원(<span class="source-ref">21, 40, 41절</span>) 등과 연결된다. 모든 인간 영혼이 아담으로부터 유래한다는 영혼 유전설(Traducianism)을 암시하며, 아담 안에서 인류 전체 영혼이 잠재적으로 존재했다고 본다. 아담이 잠든 것은 하나님이 내리신 '황홀경'으로 해석되며, 이때 하와가 창조되었다 (<span class="source-ref">9, 20, 21, 27, 36, 38, 40, 41, 43, 45, 55절</span>).</dd>
+                        </div>
+                        <div class="glossary-entry">
+                            <dt>아리스토텔레스 (Aristoteles)</dt>
+                            <dd>
+                                플라톤의 제자, 고대 그리스 철학자. 테르툴리아누스는 그의 영혼론(영혼을 생명의 원리, 여러 기능으로 구분)을 언급하고 비판한다. 영혼을 비물질적으로 보았다는 점(<span class="source-ref">5절</span>), 영혼 부분설(<span class="source-ref">14절</span>), 마음과 영혼의 관계(<span class="source-ref">12절</span>) 등이 논의된다. 그의 학파는 페리파토스 학파로 불린다(<span class="source-ref">5절</span>). 크리톨라우스는 이 학파 소속이다(<span class="source-ref">5절</span>).
+                                <p><em>테르툴리아누스의 비판점:</em> 영혼 기능 구분은 영혼의 단일성을 해칠 수 있으며, 일부 주장은 모호하다.</p>
+                             </dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>아르키메데스 (Archimedes)</dt>
+                            <dd>고대 시칠리아의 수학자이자 발명가. 테르툴리아누스는 그의 유명한 발명품인 수력 오르간(hydraulis)을 비유로 사용하여 영혼의 본질을 설명한다. 수력 오르간이 수많은 부품과 장치로 복잡하게 구성되어 다양한 소리를 내지만 결국 하나의 통일된 기계인 것처럼, 영혼도 다양한 힘(virtutes), 효능(efficaciae), 작용(operationes)을 가지고 여러 기능을 수행하지만 그 실체는 분할될 수 없는 단일한 존재임을 강조한다. 이 비유는 영혼을 여러 부분으로 나누려는 철학자들의 주장을 반박하는 데 사용된다 (<span class="source-ref">14절</span>).</dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>아카데미 학파 (Academici)</dt>
+                            <dd>
+                                플라톤이 창설한 학파. 후기에는 회의주의적 경향을 보였다. 테르툴리아누스는 이들이 감각의 신뢰성을 부정하고(<span class="source-ref">17절</span>), 영혼의 본질에 대해 불확실성에 머물렀다고 비판한다 (<span class="source-ref">6, 9, 26절</span>).
+                                <p><em>테르툴리아누스의 비판점:</em> 회의주의는 진리 탐구를 방해하며, 감각의 중요성을 간과한다.</p>
+                             </dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>아펠레스 (Apelles)</dt>
+                            <dd>마르키온의 제자인 영지주의자. 그는 영혼들이 본래 초천상적인 곳에 있었으나 '불의 천사'(fiery angel)에게 유혹받아 타락하여 이 세상으로 내려왔고, 이에 진노한 신이 그 영혼들을 죄 많은 육체에 가두었다는 영혼론을 주장했다 (<span class="source-ref">23절</span>). 또한 그는 여선지자 필루메나의 영향을 받아, 영혼이 육체보다 먼저 남성 또는 여성의 성별을 가지고 선재하며, 이 선재한 영혼이 나중에 육체에 성별을 부여한다고 주장했다. 테르툴리아누스는 이를 반박하며, 영혼과 육체의 씨앗은 처음부터 통합되어 전달되므로 성별 역시 잉태 시점에 동시에 결정된다고 본다 (<span class="source-ref">36절</span>).</dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>악령 (Daemon/Daemonium)</dt>
+                            <dd>&lt;영혼론&gt;에서 인간 영혼에 부정적인 영향을 미치는 영적 존재. 테르툴리아누스는 이교 철학자(소크라테스 <span class="source-ref">1절</span>)나 예언자들이 악령의 영향을 받아 잘못된 지혜나 신탁을 전파한다고 본다. 죄의 기원과 확산, 우상숭배(이교 출생 의식의 디아나, 유노, 스타티나 여신 숭배 <span class="source-ref">39절</span>), 마술 등과도 관련되며(<span class="source-ref">16, 39, 41, 57절</span>), 꿈을 통해 인간을 미혹하기도 한다 (<span class="source-ref">46, 47절</span>). 사울 왕이 엔돌의 무당을 통해 본 사무엘도 실제로는 악령의 속임수라고 본다(<span class="source-ref">57절</span>).</dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>알비누스 (Albinus)</dt>
+                            <dd>중기 플라톤주의 철학자. 테르툴리아누는 그가 윤회설을 신적인 가르침으로 받아들이고 이를 이집트의 헤르메스(메르쿠리우스) 전승과 연결 지었다고 언급하며, 윤회설의 다양한 철학적 배경 중 하나로 제시합니다 (<span class="source-ref">28절</span>).</dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>에라시스트라투스 (Erasistratus)</dt>
+                            <dd>고대 그리스의 의사이자 해부학자. 테르툴리아누스는 그가 영혼의 주도 부분(헤게모니콘)의 존재를 인정했으며, 그 위치를 뇌막으로 보았다고 전한다 (<span class="source-ref">15절</span>). 또한, 에라시스트라투스를 비롯한 고대 의사들이 사용한 '태아 살해 도구'(ἐμβρυοσφάκτην)의 존재 자체가 이미 태아가 자궁 내에서 살아있는 존재(즉, 영혼을 가진 존재)로 간주되었음을 강력하게 시사한다고 테르툴리아누스는 주장한다 (<span class="source-ref">25절</span>).</dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>에피카르모스 (Epicharmus)</dt>
+                            <dd>고대 그리스의 희극 시인이자 철학자. 테르툴리아누스는 플라톤이 그의 경구 "정신(νοῦς)이 보고 정신이 듣는다. 나머지는 귀 멀고 눈멀었다."를 차용하여, 육체적 감각을 배제하고 오직 순수한 정신에 의한 진리 인식을 강조하는 논리를 폈다고 비판적으로 분석한다. 테르툴리아누스는 감각과 지성이 분리될 수 없다고 보았다 (<span class="source-ref">18절</span>).</dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>에피쿠로스 (Epicurus)</dt>
+                            <dd>
+                                고대 그리스 철학자, 쾌락주의와 원자론 주장. 영혼이 원자로 구성되어 죽음과 함께 소멸한다고 보았다. 테르툴리아누스는 그가 죽음이 우리와 무관하다고 주장한 점(<span class="source-ref">42, 50절</span>), 감각론(<span class="source-ref">17절</span>), 꿈에 대한 견해(무의미한 것으로 치부 <span class="source-ref">45, 46절</span>), 헤게모니콘 위치(가슴 <span class="source-ref">15절</span>) 등을 언급하고 반박한다.
+                                <p><em>테르툴리아누스의 비판점:</em> 영혼 소멸설과 죽음 무관론은 영혼의 불멸성과 사후 심판을 부정하는 위험한 사상이다.</p>
+                            </dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>에크퓌로시스 (Ecpyrosis / ἐκπύρωσις)</dt>
+                            <dd>스토아 학파의 우주론적 개념으로, 주기적인 우주 대화재(conflagratio universitatis)를 통해 모든 것이 불로 정화되고 다시 생성된다는 사상. 테르툴리아누스는 이러한 순환론적 우주관과 그에 따른 영혼의 소멸 및 재흡수 개념을 비판하며, 영혼이 개별성을 유지한 채 저승에 머문다는 기독교적 영혼관을 제시한다 (<span class="source-ref">54절</span>).</dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>엔디미온 (Endymion)</dt>
+                            <dd>그리스 신화 속 인물로, 달의 여신 셀레네의 사랑을 받아 영원한 잠에 빠진 미소년. 테르툴리아누스는 스토아 학파가 영혼이 사후에 달 주위에서 엔디미온처럼 잠들어 있다고 보는 것을 비판하며, 영혼의 의식적 활동을 강조하는 기독교적 가르침과 대조한다 (<span class="source-ref">55절</span>).</dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>엠페도클레스 (Empedocles)</dt>
+                            <dd>
+                                고대 그리스 철학자. 4원소설과 윤회설 주장. 테르툴리아누스는 그가 영혼의 본질을 혈액에서 찾았다고 전하며(<span class="source-ref">5, 20절</span>), 그의 광기 어린 태도나 윤회 사상, 헤게모니콘 위치(심장 주위 피) 등을 비판적으로 언급한다 (<span class="source-ref">3, 15, 17, 30, 32, 33, 43, 54절</span>).
+                                <p><em>테르툴리아누스의 비판점:</em> 엠페도클레스의 윤회설은 부조리하며, 그의 영혼관은 일관성이 부족하다.</p>
+                             </dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>영 (Spiritus/πνεῦμα)</dt>
+                            <dd>라틴어 'spiritus'는 숨, 바람, 생기, 영 등 다양한 의미. &lt;영혼론&gt;에서 '영혼(anima)'과 구별되기도 하고 혼용되기도 한다. 주로 호흡과 관련된 생명 활동(<span class="source-ref">10, 11절</span>)이나, 성령 또는 악령과 같은 영적 실체를 지칭할 때 사용된다. 테르툴리아누스는 영혼(anima)이 본질적으로 단일하며, '영(spiritus)'은 영혼의 한 기능이거나 외부에서 영향을 미치는 존재로 구분하려 한다 (<span class="source-ref">1, 10, 11, 39, 41, 47절</span>).</dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>영지주의 (Gnostici)</dt>
+                            <dd>초대 교회 시대의 혼합주의 사상 체계. 물질세계 악, 특별한 영적 지식(그노시스) 통한 구원 강조. 영혼의 선재, 유출, 재육신 등 주장. 테르툴리아누스는 발렌티누스(<span class="source-ref">12, 18절</span>), 사투르니누스(<span class="source-ref">23절</span>), 카르포크라테스(<span class="source-ref">23, 35절</span>), 아펠레스(<span class="source-ref">23, 36절</span>) 등 여러 영지주의자들의 영혼론을 플라톤 철학의 왜곡된 형태로 보고 강하게 비판한다 (<span class="source-ref">11, 12, 18, 21, 23, 34, 35, 55절</span> 등).</dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>영혼 (Anima/ψυχή)</dt>
+                            <dd>&lt;영혼론&gt;의 핵심 주제. 하나님이 직접 불어넣으신 숨결로부터 유래하며(<span class="source-ref">3, 22, 26절</span>), 불멸하고(<span class="source-ref">3, 14절</span>), 육체적(물질적)이며(<span class="source-ref">5-9절</span>), 형상을 지니고(<span class="source-ref">9절</span>), 단일한 실체이다(<span class="source-ref">10, 14절</span>). 지성, 감각, 의지, 기예(<span class="source-ref">10절</span>) 등 다양한 능력을 가지며, 육체와 함께 (부모로부터 유전되어) 잉태되어(<span class="source-ref">25, 27절</span>) 성별이 동시에 결정되고(<span class="source-ref">36절</span>), 성장한다(<span class="source-ref">37절</span>). 음식과의 관계(<span class="source-ref">38절</span>), 선악 공존(<span class="source-ref">41절</span>), 죽음 이후 저승에서의 잠정적 심판(<span class="source-ref">55-58절</span>) 등이 논의된다. 예레미야 1:5는 태중 영혼의 인격성을 증거한다(<span class="source-ref">26절</span>). 장례 지연이 저승행을 막는다는 통념(파트 로클로스 <span class="source-ref">56절</span>)은 비판된다.</dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>윤회설 (Metempsychosis / μετεμψύχωσις / Transmigratio animarum)</dt>
+                            <dd>
+                                영혼이 죽은 뒤 다른 육체로 옮겨 다시 태어난다는 사상. 주로 피타고라스(‘사모스의 소피스트’, 아이탈리데스/에우포르보스/피르호스/헤르모티무스 전생 주장, 에우포르보스 방패 일화 <span class="source-ref">28, 31절</span>)와 플라톤 철학, 일부 영지주의자(카르포크라테스 <span class="source-ref">35절</span>), 오르페우스 비교(秘敎)(<span class="source-ref">2절</span>), 페레키데스(<span class="source-ref">2절</span>) 등에서 나타난다. 테르툴리아누스는 이 사상의 철학적 배경(알비누스, 메르쿠리우스 <span class="source-ref">28절</span>)을 언급하며, 성경(창조, 심판, 부활)과 모순되고 도덕적 책임과 정의의 문제를 야기한다고 강력히 비판한다(<span class="source-ref">17, 23, 28-35, 54절</span>). 전생과 현생의 성향 불일치(피타고라스와 어부 피르호스 <span class="source-ref">33절</span>), 플라톤의 네스토르 환생 풍자(<span class="source-ref">33절</span>), 심판론의 부조리함(살인자의 동물 환생과 아피키우스/루르코/술라의 식탁 <span class="source-ref">33절</span>), 엔니우스의 호메로스-공작새 환생 전승 비판(<span class="source-ref">33절</span>), 선한 영혼의 부적절한 보상(아이아코스, 디도 <span class="source-ref">33절</span>) 등을 지적한다.
+                                <p><em>테르툴리아누스의 비판점:</em> 윤회설은 영혼의 개별성과 단일한 삶의 책임을 부정하며, 성경적 종말론과 부합하지 않는다. <span class="related-terms">(관련 항목: <a href="#sec-ㅍ" class="internal-link" data-target-dt="피타고라스">피타고라스</a>, <a href="#sec-ㅍ" class="internal-link" data-target-dt="플라톤">플라톤</a> 참조)</span></p>
+                             </dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>이데아 (Idea / Formae)</dt>
+                            <dd>
+                                플라톤 철학의 중심 개념. 감각 세계 사물의 영원하고 완전한 원형. 영혼이 육체 이전 이데아 세계에 존재했다고 본다. 테르툴리아누스는 이데아론과 영혼 선재 사상이 영지주의(발렌티누스파 <span class="source-ref">18절</span>)의 이론적 근거가 되었다고 비판하며, 기독교 창조론적 관점을 강조한다 (<span class="source-ref">18, 24, 55절</span>).
+                                <p><em>테르툴리아누스의 비판점:</em> 이데아론은 영혼의 창조를 부정하고, 감각 세계를 폄하하며, 이단에 영향을 미쳤다. <span class="related-terms">(관련 항목: <a href="#sec-ㅍ" class="internal-link" data-target-dt="플라톤">플라톤</a>, <a href="#sec-ㅅ" class="internal-link" data-target-dt="상기설">상기설</a> 참조)</span></p>
+                             </dd>
+                        </div>
+                    </dl>
+                </section>
+
+                <!-- Section ㅈ -->
+                <section id="sec-ㅈ">
+                    <h2>ㅈ</h2>
+                     <dl>
+                        <div class="glossary-entry">
+                            <dt>저승/하데스 (Inferi/Hades)</dt>
+                            <dd>죽은 자들의 영혼이 머무는 지하 세계. 실제 장소로, 모든 영혼이 부활과 최후 심판 전까지 잠정적 상태(위로 또는 고통)로 머문다고 본다. 낙원은 순교자 등 특별한 이들을 위한 예외. 저승 경험(나사로 비유)은 영혼의 물질성과 의식적 존재를 논증한다. 다양한 철학적 사후 거처론(플라톤의 에테르, 스토아의 달 주위/에크퓌로시스/엔디미온 <span class="source-ref">54, 55절</span>)을 비판한다 (<span class="source-ref">7, 34, 54-58절</span>).</dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>제논 (Zeno)</dt>
+                            <dd>스토아 학파 창시자. 영혼을 물질적인 프네우마로 보고, 여러 부분으로 구성된다고 주장했다. 테르툴리아누스는 그가 영혼을 3부분으로 나누었다고 전하며(<span class="source-ref">14절</span>), 그의 영혼 부분설을 비판하고 영혼의 단일성을 강조한다 (<span class="source-ref">3, 5, 14절</span>).</dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>죄 (Peccatum)</dt>
+                            <dd>영혼의 타락과 죽음의 원인. 아담의 범죄로 모든 인간 영혼은 본성적으로 죄에 기울어지며(원죄 암시), 악령의 유혹에 넘어가기도 한다. 책임은 육체가 아닌 영혼의 의지(자유의지)에 있으며(<span class="source-ref">40절</span>), 세례를 통해 죄 사함을 받고 성령 안에서 새로운 삶을 살아야 한다. 플라톤의 영혼 이분법을 재해석하여, 욕망이나 분노가 항상 비이성적인 것은 아니며(딤전 3:1, 갈 5:12 <span class="source-ref">16절</span>), '진노의 자녀'(엡 2:3 <span class="source-ref">16절</span>)는 타락한 본성에서 온 비이성적 분노로, 악마(마 6:24, 요 8:44 <span class="source-ref">16절</span>)가 기원이라고 본다. 이교 출생 의식(디아나, 유노, 스타티나 숭배 <span class="source-ref">39절</span>)은 불결하며, 신자 자녀는 거룩하나(고전 7:14 <span class="source-ref">39절</span>), 물과 성령 거듭남(요 3:5 <span class="source-ref">39절</span>)이 필수적이다.</dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>주도권/헤게모니콘 (Principatus/Hegemonikon/ἡγεμονικόν)</dt>
+                            <dd>영혼의 주요 기능 또는 지배 부분. 테르툴리아누스는 존재를 인정하나, 디카이아르코스, 안드레아스, 아스클레피아데스의 부정론을 비판한다(<span class="source-ref">15절</span>). 헤로필루스, 에라시스트라투스 등 다수 의학 권위자가 인정했다고 본다(<span class="source-ref">15절</span>). 위치에 대해서는 다양한 견해(모스키온-전신, 크세노크라테스-정수리, 헤로필루스-뇌 기저부, 스트라톤-미간, 에라시스트라투스-뇌막, 에피쿠로스-가슴, 프로타고라스/아폴로도로스/크리시포스/스토아-심장 <span class="source-ref">15절</span>)를 검토 후, 심장에 있다고 결론 내린다.</dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>죽음 (Mors)</dt>
+                            <dd>육체와 영혼의 분리. 죄의 결과로 인간에게 들어왔다. 에피쿠로스나 세네카의 '죽음 이후 모든 것의 끝' 견해를 비판하며, 사후 영혼의 의식적 존재와 저승에서의 심판 대기를 주장한다. 잠은 죽음의 모형. 모든 죽음은 외형과 무관하게 본질적으로 '폭력적 분리'라고 본다(킬론, 클리데모스, 크라수스 사례 <span class="source-ref">52절</span>). 영혼 이탈 과정이며 소멸이 아니다 (<span class="source-ref">3, 19, 20, 42, 43, 50-53절</span>).</dd>
+                        </div>
+                    </dl>
+                </section>
+
+                 <!-- Section ㅊ -->
+                <section id="sec-ㅊ">
+                    <h2>ㅊ</h2>
+                    <dl>
+                        <div class="glossary-entry">
+                            <dt>창조 (Creatio/Conditio)</dt>
+                            <dd>&lt;영혼론&gt;의 기본적인 전제. 영혼은 선재하거나 유출된 것이 아니라, 하나님에 의해 직접 창조되었다. 아담의 영혼은 하나님의 숨결로, 이후 영혼들은 영혼 유전설에 따라 부모로부터 (육체와 동시에) 전달받는 방식으로 창조된다 (<span class="source-ref">3, 4, 22, 27절</span>).</dd>
+                        </div>
+                    </dl>
+                </section>
+
+                <!-- Section ㅍ -->
+                <section id="sec-ㅍ">
+                    <h2>ㅍ</h2>
+                    <dl>
+                         <div class="glossary-entry">
+                            <dt>페르페투아 (Perpetua)</dt>
+                            <dd>북아프리카 카르타고의 순교 성녀(3세기 초). 테르툴리아누스는 그녀가 순교 직전에 본 낙원 환시를 중요한 증거로 제시한다. 이 환시에서 페르페투아는 오직 순교자들만이 즉시 낙원에 들어가는 것을 보았으며, 이는 일반 신자들의 영혼은 최후 심판 때까지 저승(아브라함의 품)에서 기다린다는 테르툴리아누스의 주장과 일치한다. 이는 순교의 특별한 가치와 지위를 강조하는 논거가 된다 (<span class="source-ref">55절</span>).</dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>플라톤 (Plato)</dt>
+                            <dd>
+                                고대 그리스 철학자, &lt;영혼론&gt;의 주요 논박 대상. 그의 영혼론(삼분설, 불멸, 선재, 이데아론, 상기설<span class="source-ref">8, 23, 24절</span>, 윤회설<span class="source-ref">28-35절</span> 등)이 많은 이단 사상(특히 영지주의)의 철학적 배경이 되었다고 비판받는다. 영혼을 비물질적, 신적으로 보았지만 망각이나 윤회 개념 도입으로 모순에 빠졌다고 지적한다. 메르쿠리우스 권위에 의존했다고도 본다(<span class="source-ref">2절</span>). 소크라테스, 케베스, 파이돈이 등장하는 &lt;파이돈&gt;은 그의 주요 저작이다(<span class="source-ref">1절</span>). &lt;법률&gt;에서는 환경이 기질에 미치는 영향을 논했다(<span class="source-ref">20절</span>).
+                                <p><em>테르툴리아누스의 비판점:</em> 플라톤의 영혼론은 기독교의 창조론, 인간론, 종말론과 근본적으로 다르며, 그의 사변적 접근은 계시의 권위를 약화시킨다. <span class="related-terms">(관련 항목: <a href="#sec-ㅅ" class="internal-link" data-target-dt="상기설">상기설</a>, <a href="#sec-ㅇ" class="internal-link" data-target-dt="이데아">이데아</a>, <a href="#sec-ㅇ" class="internal-link" data-target-dt="윤회설">윤회설</a> 참조)</span></p>
+                            </dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>피타고라스 (Pythagoras)</dt>
+                            <dd>
+                                고대 그리스 철학자, 수학자. 영혼 불멸과 윤회설 주장. 테르툴리아누스는 그를 '사모스의 소피스트'로 지칭하며(<span class="source-ref">28절</span>), 그가 자신이 과거 아이탈리데스, 에우포르보스, 어부 피르호스, 헤르모티무스 등으로 살았다고 주장한 것(<span class="source-ref">31절</span>)과 에우포르보스의 방패 일화(<span class="source-ref">31절</span>)는 신빙성 없는 이야기와 속임수에 근거한다고 비판한다. 전생과 현생의 성향 불일치도 지적한다(<span class="source-ref">33절</span>). 페레키데스는 그의 스승으로 윤회 사상의 선구자로 간주된다(<span class="source-ref">2절</span>).
+                                <p><em>테르툴리아누스의 비판점:</em> 피타고라스의 윤회설은 증거가 부족하고 비논리적이며, 기만적이다. <span class="related-terms">(관련 항목: <a href="#sec-ㅇ" class="internal-link" data-target-dt="윤회설">윤회설</a> 참조)</span></p>
+                             </dd>
+                        </div>
+                    </dl>
+                </section>
+
+                <!-- Section ㅎ -->
+                 <section id="sec-ㅎ">
+                    <h2>ㅎ</h2>
+                    <dl>
+                        <div class="glossary-entry">
+                            <dt>하나님 (Deus)</dt>
+                            <dd>&lt;영혼론&gt;에서 만물의 창조주이자 영혼의 궁극적인 기원. 전능, 선하심, 정의로우심을 강조하며, 영혼에 대한 참된 지식은 오직 하나님으로부터 오는 계시를 통해서만 가능하다고 본다 (<span class="source-ref">1-4, 10, 11, 13, 15, 16, 20, 22, 26, 27, 33, 35, 37-39, 41, 45-47, 50, 55, 57, 58절</span> 등).</dd>
+                        </div>
+                        <div class="glossary-entry">
+                            <dt>헤라클레이토스 (Heraclitus)</dt>
+                            <dd>고대 그리스 철학자. "만물 유전", 로고스와 불을 우주 근본 원리로 봄. 테르툴리아누스는 그가 영혼 본질을 불에서 찾았다고 전하며(<span class="source-ref">5절</span>), 영혼 탐구의 어려움을 토로한 그의 말("영혼의 경계는 찾아낼 수 없을 것이다...")을 인용하여 인간 이성의 한계와 계시의 필요성을 암시한다 (<span class="source-ref">2, 18절</span>). 헤게모니콘 위치에 대한 견해도 언급된다 (<span class="source-ref">15절</span>).</dd>
+                        </div>
+                        <div class="glossary-entry">
+                            <dt>헤르모게네스 (Hermogenes)</dt>
+                            <dd>
+                                테르툴리아누스의 주요 논박 대상. 영혼이 하나님의 숨결이 아닌, 영원한 물질(hyle)로부터 창조되었다고 주장했다. 테르툴리아누스는 그가 성경을 자의적으로 해석하여 영혼의 신적 기원을 부정하고 영혼이 죄와 심판에 이를 가능성을 열어둔다고 강력히 비판하며, 영혼이 하나님의 창조물임을 강조한다 (<span class="source-ref">1, 3, 11, 21, 22, 24절</span>).
+                                <p><em>테르툴리아누스의 비판점:</em> 헤르모게네스의 주장은 하나님의 창조 주권을 부정하고, 영혼의 신적 기원을 훼손한다.</p>
+                            </dd>
+                        </div>
+                        <div class="glossary-entry">
+                            <dt>헤르모티무스 (Hermotimus)</dt>
+                            <dd>클라조메나이 출신 인물. 그의 영혼이 잠자는 동안 육체를 떠나 돌아다녔다는 전설로 유명하다. 테르툴리아누스는 이 사례를 언급하며, 이것이 일반적인 잠이 아니라 특수한 질병 상태(예: 야귀/악몽 <span class="source-ref">44절</span>)이거나 황홀경의 일종일 수 있다고 해석하며, 실제 영혼 이탈설에 대해서는 비판적 입장을 보인다 (<span class="source-ref">2, 21, 22, 44절</span>).</dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>헤로도토스 (Herodotus)</dt>
+                            <dd>고대 그리스 역사가. 테르툴리아누스는 그가 기록한 메디아 왕 아스티아게스의 꿈과 그 예언적 성취를 꿈의 예언 기능 사례로 언급한다 (<span class="source-ref">46절</span>).</dd>
+                        </div>
+                         <div class="glossary-entry">
+                            <dt>헤로필루스 (Herophilus)</dt>
+                            <dd>고대 알렉산드리아 의학파의 대표적인 의사이자 해부학자. 테르툴리아누스는 그를 '도살자'(lanius)라고 부르기도 한다(<span class="source-ref">10절</span>). 인체 해부를 통해 뇌와 신경계 연구에 기여했다. 테르툴리아누스는 그가 영혼의 주도 원리(헤게모니콘)를 인정했으며(<span class="source-ref">15절</span>), 그 위치를 뇌 기저부로 보았다고 전한다(<span class="source-ref">15절</span>). 또한 미물 해부를 통해 생명 현상 연구(폐 없는 미물의 호흡 문제)에 대해 논쟁하며 생명의 신비를 강조하는 데 그의 사례를 비판적으로 사용한다(<span class="source-ref">10, 25절</span>).</dd>
+                        </div>
+                        <div class="glossary-entry">
+                            <dt>황홀경 (Ecstasis/ἔκστασις)</dt>
+                            <dd>정신이 평소의 상태를 벗어나 초월적인 경험을 하는 상태. &lt;영혼론&gt;에서는 꿈의 본질과 관련하여 중요하게 다뤄진다. 테르툴리아누스는 잠이 육체의 휴식이라면, 황홀경은 영혼의 활동이며, 꿈은 이러한 황홀경 상태에서 영혼이 경험하는 것이라고 본다. 하나님께서 아담을 잠들게 하신 것(창 2:21)을 단순한 수면이 아니라 영혼에 임한 '황홀경'으로 해석하며, 이 상태에서 하와가 창조되었다고 본다 (<span class="source-ref">9, 11, 39, 45, 47, 48절</span>).</dd>
+                        </div>
+                    </dl>
+                </section>
+
+
+            </main>
+        </div> <!-- /.main-content -->
+
+        <footer>
+            <p>© 테르툴리아누스 영혼론 용어 해설 v.2.0 (2025-05-10)| made by <a href="http://www.kerygma.co.kr" target="_blank" title="케리그마출판사">KP</a></p>
+        </footer>
+    </div> <!-- /.container -->
+
+    <button id="scrollToTopBtn" title="맨 위로 이동">↑</button>
+
+    <script>
+        // --- 요소 선택 (전역) ---
+        const searchInput = document.getElementById('searchInput');
+        const clearSearchBtn = document.getElementById('clearSearchBtn');
+        const scrollTopBtn = document.getElementById("scrollToTopBtn");
+
+        // *** 개별 링크 아이템의 텍스트(단일 숫자)와 검색 숫자가 일치하는지 확인 ***
+        function checkIndividualRefMatch(spanText, searchNum) {
+            if (typeof spanText !== 'string' || typeof searchNum !== 'number' || isNaN(searchNum)) return false;
+            const num = parseInt(spanText, 10);
+            return !isNaN(num) && num === searchNum;
+        }
+
+        // --- 모든 활성화/강조 스타일 제거 함수 ---
+        function clearAllRefHighlights() {
+            const allSourceRefs = document.querySelectorAll('dd .source-ref');
+            allSourceRefs.forEach(refContainer => {
+                refContainer.classList.remove('active-filter-ref');
+                const highlightedSpans = refContainer.querySelectorAll('.highlight-section');
+                highlightedSpans.forEach(hs => {
+                    hs.classList.remove('highlight-section');
+                });
+            });
+        }
+
+        // --- 검색 수행 함수 ---
+        function performSearch(searchText, isSectionSearch = false, sectionNumToFilter = null) {
+            const searchTermForText = typeof searchText === 'string' ? searchText.toLowerCase().trim() : '';
+            const currentGlossaryEntries = document.querySelectorAll('.glossary-content .glossary-entry');
+            const currentSections = document.querySelectorAll('.glossary-content section');
+            const currentSectionHeaders = document.querySelectorAll('.glossary-content section h2');
+
+            clearAllRefHighlights();
+
+            if (searchTermForText === '' && !isSectionSearch) {
+                currentSections.forEach(section => section.style.display = 'block');
+                currentGlossaryEntries.forEach(entry => entry.style.display = 'block');
+                currentSectionHeaders.forEach(h2 => {
+                    const parentSection = h2.closest('section');
+                    if (parentSection) h2.style.display = 'block';
+                });
+                if (clearSearchBtn) clearSearchBtn.style.display = 'none';
+                return;
+            }
+
+            if (clearSearchBtn) clearSearchBtn.style.display = 'inline-block';
+
+            currentSections.forEach(section => {
+                if (section.id === 'table-of-contents') {
+                    section.style.display = 'block';
+                    return;
+                }
+
+                const entriesInSection = section.querySelectorAll('.glossary-entry');
+                let sectionHasVisible = false;
+
+                entriesInSection.forEach(entry => {
+                    let isVisible = false;
+                    const sourceRefContainer = entry.querySelector('dd .source-ref');
+
+                    if (isSectionSearch && sectionNumToFilter !== null) {
+                        const refSpansInEntry = entry.querySelectorAll('dd .source-ref-section-item');
+                        let entryContainsFilteredSection = false;
+                        for (const refSpan of refSpansInEntry) {
+                            if (checkIndividualRefMatch(refSpan.textContent, sectionNumToFilter)) {
+                                isVisible = true;
+                                entryContainsFilteredSection = true;
+                                refSpan.classList.add('highlight-section');
+                            }
+                        }
+                        if (entryContainsFilteredSection && sourceRefContainer) {
+                            sourceRefContainer.classList.add('active-filter-ref');
+                        }
+                    } else if (searchTermForText !== '') {
+                        const termElement = entry.querySelector('dt');
+                        const definitionElement = entry.querySelector('dd');
+                        if (termElement && definitionElement) {
+                            const term = termElement.textContent.toLowerCase();
+                            const definition = definitionElement.textContent.toLowerCase();
+                            if (term.includes(searchTermForText) || definition.includes(searchTermForText)) {
+                                isVisible = true;
+                            }
+                        }
+                    }
+
+                    entry.style.display = isVisible ? 'block' : 'none';
+                    if (isVisible) sectionHasVisible = true;
+                });
+
+                const h2 = section.querySelector('h2');
+                if (sectionHasVisible) {
+                    section.style.display = 'block';
+                    if(h2) h2.style.display = 'block';
+                } else {
+                    section.style.display = 'none';
+                    if(h2) h2.style.display = 'none';
+                }
+            });
+        }
+
+        // --- DOMContentLoaded 내에서는 이벤트 리스너 바인딩 및 초기화 작업만 수행 ---
+        document.addEventListener('DOMContentLoaded', () => {
+            if (searchInput) {
+                searchInput.addEventListener('keyup', function(event) {
+                    performSearch(event.target.value);
+                });
+                searchInput.addEventListener('input', function(event) {
+                    performSearch(event.target.value);
+                });
+            }
+            if (clearSearchBtn) {
+                clearSearchBtn.addEventListener('click', function() {
+                    if (searchInput) {
+                        searchInput.value = '';
+                        performSearch('');
+                        searchInput.focus();
+                    }
+                });
+            }
+
+            const sourceRefContainers = document.querySelectorAll('dd .source-ref');
+            if (sourceRefContainers) {
+                sourceRefContainers.forEach(containerSpan => {
+                    const originalText = containerSpan.textContent.trim();
+                    if (!originalText.startsWith("(") || !originalText.endsWith("절)")) return;
+
+                    const cleanedText = originalText.substring(1, originalText.length - 2);
+                    const parts = cleanedText.split(',');
+
+                    containerSpan.innerHTML = '';
+                    containerSpan.appendChild(document.createTextNode("("));
+
+                    const allIndividualNumbers = [];
+                    parts.forEach(part => {
+                        const partTrimmed = part.trim();
+                        if (partTrimmed.includes('-')) {
+                            const range = partTrimmed.split('-');
+                            if (range.length === 2) {
+                                const start = parseInt(range[0], 10);
+                                const end = parseInt(range[1], 10);
+                                if (!isNaN(start) && !isNaN(end) && start <= end) {
+                                    for (let i = start; i <= end; i++) {
+                                        allIndividualNumbers.push(i.toString());
+                                    }
+                                } else { allIndividualNumbers.push(partTrimmed); }
+                            } else { allIndividualNumbers.push(partTrimmed); }
+                        } else if (partTrimmed !== "") {
+                            // "등" 과 같은 텍스트가 붙어있는 경우 숫자만 추출
+                            const numOnlyMatch = partTrimmed.match(/^\d+/);
+                            if (numOnlyMatch) {
+                                allIndividualNumbers.push(numOnlyMatch[0]);
+                            } else if (partTrimmed) { // 숫자가 아닌 다른 텍스트라도 일단 추가 (오류 방지)
+                                // allIndividualNumbers.push(partTrimmed); // 숫자가 아닌 것은 링크로 만들지 않음
+                            }
+                        }
+                    });
+                    const uniqueSortedNumbers = [...new Set(allIndividualNumbers)].sort((a, b) => parseInt(a) - parseInt(b));
+
+                    uniqueSortedNumbers.forEach((numStr, index) => {
+                        if (isNaN(parseInt(numStr))) { // 숫자가 아니면 그냥 텍스트로 추가
+                            containerSpan.appendChild(document.createTextNode(numStr));
+                        } else {
+                            const sectionSpan = document.createElement('span');
+                            sectionSpan.className = 'source-ref-section-item';
+                            sectionSpan.textContent = numStr;
+                            // sectionSpan.style.cursor = 'pointer'; // CSS에서 처리
+
+                            sectionSpan.addEventListener('click', function(event) {
+                                const clickedNumber = parseInt(this.textContent, 10);
+                                if (!isNaN(clickedNumber) && searchInput) {
+                                    searchInput.value = `(${clickedNumber}절)`;
+                                    performSearch(null, true, clickedNumber);
+                                    searchInput.focus();
+                                    const firstVisibleSection = document.querySelector('.glossary-content section:not(#table-of-contents)[style*="display: block"]');
+                                    if (firstVisibleSection) {
+                                         firstVisibleSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                                    } else if (searchInput) {
+                                         searchInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                    }
+                                }
+                            });
+                            containerSpan.appendChild(sectionSpan);
+                        }
+
+                        if (index < uniqueSortedNumbers.length - 1) {
+                            containerSpan.appendChild(document.createTextNode(", "));
+                        }
+                    });
+                    containerSpan.appendChild(document.createTextNode("절)"));
+                });
+            }
+
+            const internalLinks = document.querySelectorAll('.internal-link');
+            if (internalLinks) {
+                internalLinks.forEach(link => {
+                    link.addEventListener('click', function(event) {
+                        event.preventDefault();
+                        const targetSectionId = this.getAttribute('href');
+                        const targetDtText = this.getAttribute('data-target-dt');
+
+                        if (targetSectionId && targetDtText) {
+                            const targetSection = document.querySelector(targetSectionId);
+                            if (targetSection) {
+                                targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                                setTimeout(() => {
+                                    const allDtElements = targetSection.querySelectorAll('dt');
+                                    let targetDtElement = null;
+                                    allDtElements.forEach(dt => {
+                                        if (dt.textContent.trim().toLowerCase().startsWith(targetDtText.toLowerCase())) {
+                                            targetDtElement = dt;
+                                        }
+                                    });
+                                    if (targetDtElement) {
+                                        const headerOffset = 80;
+                                        const elementPosition = targetDtElement.getBoundingClientRect().top;
+                                        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                                        window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+                                    }
+                                }, 350);
+                            }
+                        }
+                    });
+                });
+            }
+
+            if (searchInput && clearSearchBtn) {
+                 if (searchInput.value.trim() !== '') {
+                     performSearch(searchInput.value.trim());
+                     clearSearchBtn.style.display = 'inline-block';
+                 } else {
+                     clearSearchBtn.style.display = 'none';
+                 }
+             }
+        }); // DOMContentLoaded 끝
+
+        window.onscroll = function() { scrollFunction(); };
+        function scrollFunction() {
+            if (scrollTopBtn && (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100)) {
+                scrollTopBtn.classList.add("show");
+            } else if (scrollTopBtn) {
+                scrollTopBtn.classList.remove("show");
+            }
+        }
+        if (scrollTopBtn) {
+            scrollTopBtn.addEventListener("click", function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+    </script>
+</body>
+</html>
